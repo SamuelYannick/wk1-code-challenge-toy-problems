@@ -1,22 +1,22 @@
-# README: JavaScript Utility Scripts
+# Toy Problems Wk1 Code Challenge
 
-## Overview
+## Intro
 
-This repository contains three JavaScript utility scripts designed for specific tasks:
+This repository contains three JavaScript files each performing specific tasks:
 
-1. **Grade Calculation**: Determines a student's grade based on their marks.
+1. **Grade Calculator**: Determines a student's grade based on their marks.
 2. **Speed Monitoring**: Calculates demerit points or license suspension based on vehicle speed.
 3. **Net Salary Calculation**: Computes the net salary based on basic salary, benefits, and deductions (PAYE, NHIF, and NSSF).
 
-Each script is standalone and can be run independently.
+Each file/script is independent of the other.
 
 ---
 
-## Script Details
+## Details
 
-### 1. Grade Calculation (`getStudentGrade`)
+### 1. Grade Calculation (`gradeCalculator`)
 
-This script calculates a student's grade based on marks entered by the user. Grades are determined according to the following criteria:
+This scrip calculates a student's grade based on marks entered by the user. Grades are determined according to the following criteria:
 
 - **A**: Marks above 79
 - **B**: Marks between 60 and 79
@@ -24,7 +24,7 @@ This script calculates a student's grade based on marks entered by the user. Gra
 - **D**: Marks between 40 and 49
 - **E**: Marks below 40
 
-#### Usage For Grade Calculation
+#### How it works
 
 - Upon running, the script prompts the user to input marks between 0 and 100.
 - If the input is invalid, the script requests valid input until provided.
@@ -32,7 +32,7 @@ This script calculates a student's grade based on marks entered by the user. Gra
 
 ---
 
-### 2. Speed Monitoring (`checkSpeed`)
+### 2. Speed Monitoring (`speedChecker.js`)
 
 This script evaluates a vehicle's speed and determines whether a warning, demerit points, or license suspension applies. It operates under the following rules:
 
@@ -40,7 +40,7 @@ This script evaluates a vehicle's speed and determines whether a warning, demeri
 - For every **5 km/h** above the speed limit, the driver earns **1 demerit point**.
 - If the driver accrues **12 or more points**, their license is suspended.
 
-#### Usage For Speed Monitoring
+#### Its working
 
 - The script prompts the user to input the vehicle's speed.
 - Based on the input:
@@ -67,7 +67,7 @@ This script calculates an employee's **net salary** after applying taxes and ded
 3. **NSSF Deduction**:
    - 6% of gross salary, capped at KES 2,160.
 
-#### Usage For Net Salary Calculation
+#### The How
 
 - The script prompts the user to enter:
   - **Basic salary**
@@ -82,31 +82,17 @@ This script calculates an employee's **net salary** after applying taxes and ded
 #### Example Output
 
 ``` javascript
-Gross Salary: KES 50,000.00
-PAYE (Tax): KES 6,333.25
-NHIF Deduction: KES 850.00
-NSSF Deduction: KES 2,160.00
-Net Salary: KES 40,656.75
+Gross Salary: KES 92000.00
+PAYE (Tax): KES 20535.35
+NHIF Deduction: KES 1600.00
+NSSF Deduction: KES 2160.00
+Net Salary: KES 67704.65
 ```
 
 ---
 
-## How to Run
+## The End
 
-1. Copy the desired script into a JavaScript runtime environment (e.g., browser console or Node.js).
-2. Follow the instructions to provide input where prompted.
-3. View results in the console or as alerts, depending on the script.
+## By
 
----
-
-## Requirements
-
-- Basic understanding of JavaScript.
-- A runtime environment capable of running JavaScript (e.g., modern web browsers).
-
----
-
-## Author
-
-Samuel Ochieng  
-Built as part of Full-Stack Web Development learning journey.
+Samuel Ochieng.
