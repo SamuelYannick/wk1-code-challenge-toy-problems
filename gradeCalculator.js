@@ -1,17 +1,17 @@
+const readLine = require('readline-sync');
 let marks, grade;
-let validInput = false;
 
 function gradeCalculator() {
     while (true) {
-        marks = prompt("Enter marks between 0 and 100:");
+        marks = readLine.question("Enter marks between 0 and 100:");
         if(!isNaN(marks) && marks >= 0 && marks <= 100) {
-            break; //Exit the lopp if the input is valid
+            break; //Exit the loop when the input is valid
         } else {
-            alert("Invalid input! Please enter a number between 0 and 100");
+            console.log("Invalid input! Please enter a number between 0 and 100");
         }
     }
     
-    //Determine the grade
+    //Finally, determining the grade
     if (marks > 79) {
         grade = "A";
     } else if (marks >= 60) {
@@ -24,7 +24,7 @@ function gradeCalculator() {
         grade = "E";
     }
 
-    alert(`The grade is: ${grade}`);
+    console.log(`The grade is: ${grade}`);
 }
 
 gradeCalculator();

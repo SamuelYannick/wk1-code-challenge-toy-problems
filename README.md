@@ -8,8 +8,6 @@ This repository contains three JavaScript files each performing specific tasks:
 2. **Speed Monitoring**: Calculates demerit points or license suspension based on vehicle speed.
 3. **Net Salary Calculation**: Computes the net salary based on basic salary, benefits, and deductions (PAYE, NHIF, and NSSF).
 
-Each file/script is independent of the other.
-
 ---
 
 ## Details
